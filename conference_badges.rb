@@ -31,4 +31,5 @@ x = 0
   flat_printout.each do
     puts flat_printout[0]
     x += 1
+  end
 end
