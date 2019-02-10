@@ -29,7 +29,7 @@ def printer(name)
   flat_printout = badges_rooms.flatten
 x = 0
   flat_printout.each do
-    puts flat_printout[0]
+    puts flat_printout[x]
     x += 1
   end
 end
