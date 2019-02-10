@@ -27,5 +27,5 @@ def printer(name)
   badges_rooms = []
     badges_rooms.push(batch_badge_creator(name)).concat(assign_rooms(name))
   flat_printout = badges_rooms.flatten
-
+  puts flat_printout
 end
